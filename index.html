@@ -11,27 +11,30 @@
   <body>
     <div class="container">
       <header>
-        <h1>AI Poem Generator! 📝</h1>
+        <h1>AI Poem Generator! 📜✒️</h1>
       </header>
 
       <main>
-        <form class="poem-search" id="poem-generator">
-          <input
-            type="text"
-            placeholder="Enter your topic of choice..."
-            autofocus
-            required
-            autocomplete="off"
-            class="search"
-            id="poem-topic"
-          />
-          <input
-            type="submit"
-            value="Find a poem!"
-            class="poem-submit"
-            id="submit-poem"
-          />
-        </form>
+        <div class="form-wrapper">
+          <form class="poem-search" id="poem-generator">
+            <input
+              type="text"
+              placeholder="Enter a topic for your poem..."
+              autofocus
+              required
+              autocomplete="off"
+              class="search"
+              id="poem-topic"
+            />
+            <input
+              type="submit"
+              value="Find a poem!"
+              class="poem-submit"
+              id="submit-poem"
+            />
+          </form>
+          <div class="hint">i.e. Flowers, Love, or Cheese</div>
+        </div>
         <div class="poem-display" id="display-poem"></div>
       </main>
 
