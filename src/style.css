@@ -1,7 +1,7 @@
 body {
-  background-image: url(https://masterbundles.com/wp-content/uploads/2023/03/preview-398-1.jpg);
-  background-size: 45%;
-  background-repeat: no-repeat;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/496/original/poemGeneratorBackground.jpg?1721494796);
+  background-size: contain;
+  background-repeat: repeat;
   background-attachment: fixed;
   background-color: #ffffff;
   font-family: "Lora", serif;
