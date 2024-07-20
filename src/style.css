@@ -1,16 +1,21 @@
 body {
-  background-color: #f9f7fe;
-  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://masterbundles.com/wp-content/uploads/2023/03/preview-398-1.jpg);
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #ffffff;
+  font-family: "Lora", serif;
 }
 
 header {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 h1 {
   font-weight: 800px;
   text-align: center;
   margin: 50px auto;
+  margin-top: -15px;
 }
 
 div {
@@ -32,6 +37,7 @@ div {
 
 .hint {
   font-size: 12px;
+  font-weight: bold;
   line-height: 1.5;
   margin-top: 50px;
   opacity: 0.6;
@@ -44,6 +50,7 @@ div {
   border: 1px solid rgba(39, 33, 66, 0.5);
   border-radius: 30px;
   font-size: 16px;
+  font-family: "Lora", serif;
   line-height: 20px;
   color: #272044;
   width: 80%;
@@ -54,8 +61,13 @@ div {
   border-radius: 50px;
   color: white;
   font-size: 16px;
+  font-family: "Lora", serif;
   border: none;
-  background-color: #885df1;
+  background-color: #04010c;
+}
+
+.hidden {
+  display: none;
 }
 
 .poem-display {
@@ -67,12 +79,12 @@ div {
   margin-top: -25px;
   padding: 20px;
   line-height: 2;
-  border-left: 4px solid #885df1;
+  border-left: 4px solid #04010c;
   border-radius: 10px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.03);
 }
 
-.blink {
+/* .blink {
   animation: blink 1s step-start 0s infinite;
 }
 
@@ -80,17 +92,20 @@ div {
   50% {
     opacity: 0;
   }
-}
+} */
 
 strong {
-  color: #885df1;
+  color: #04010c;
 }
 
 a {
-  color: #885df1;
+  color: #04010c;
 }
 
 footer {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
   text-align: center;
   margin-top: 30px;
 }
