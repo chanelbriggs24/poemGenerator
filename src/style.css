@@ -64,6 +64,12 @@ div {
   font-family: "Lora", serif;
   border: none;
   background-color: #04010c;
+  transition: all 200ms ease-in-out;
+}
+
+.poem-submit:hover {
+  cursor: pointer;
+  background-color: #d3d3d3;
 }
 
 .hidden {
@@ -81,18 +87,20 @@ div {
   line-height: 2;
   border-left: 4px solid #04010c;
   border-radius: 10px;
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.03);
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
 
-/* .blink {
-  animation: blink 1s step-start 0s infinite;
+.blink {
+  animation: blink 1s linear infinite;
+  font-size: 16px;
+  margin: 10px auto;
 }
 
 @keyframes blink {
   50% {
     opacity: 0;
   }
-} */
+}
 
 strong {
   color: #04010c;
